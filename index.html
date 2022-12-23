@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pogpks_studio</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+
+</head>
+
+<body>
+    <!------------------Login Modal------------------>
+    <div class="login_main" id="login_model">
+        <button id="close-btn" onclick="hideModel()">*</button>
+        <h2>Login Now</h2>
+        <div class="login_center">
+            <form>
+                Enter Username:<br /><input type="text" name="username"><br />
+                Enter Password:<br /><input type="text" name="password"><br />
+                <input type="submit" name="submit" value="Login">
+            </form>
+        </div>
+    </div>
+
+    <!------------------Signup Modal------------------>
+    <div class="signup_main" id="signup_model">
+        <button id="close-btn" onclick="hideModel()">*</button>
+        <h2>Signup Now</h2>
+        <div class="signup_center">
+            <form>
+                Enter Name:<br /><input type="text" name="username"><br />
+                Enter Email:<br /><input type="text" name="email"><br />
+                Enter Password:<br /><input type="text" name="password"><br />
+                <input type="submit" name="submit" value="Signup">
+            </form>
+        </div>
+    </div>
+
+    <div class="main">
+        <!---------------Heading------------------>
+
+        <div class="header">
+            <h2 class="tittle">Pog pks</h2><span class="sp-1">studio</span>
+            <div class="search">
+                <input type="text" class="search_bar" placeholder="  Serach......">
+                <input type="submit" value="Serach" class="btn-1">
+            </div>
+        </div>
+
+        <div class="search_hidden">
+            <input type="text" class="search_bar_hidden" placeholder="  Serach......">
+            <input type="submit" value="Serach" class="btn-1-hidden">
+        </div>
+        <!----------------Navbar-------------------->
+
+        <div class="navbar">
+            <ul class="nav_outer">
+                <li class="out_li"><a href="#">Home</a></li>
+                <li class="out_li"><a href="#">Category</a>
+                    <ul class="nav_inner">
+                        <li class="in_li"><a href="#">Dark</a></li>
+                        <li class="in_li"><a href="#">Natural</a></li>
+                        <li class="in_li"><a href="#">Mountain</a></li>
+                        <li class="in_li"><a href="#">Indian Culture</a></li>
+                        <li class="in_li"><a href="#">Forest</a></li>
+                        <li class="in_li"><a href="#">Cars</a></li>
+                        <li class="in_li"><a href="#">Places</a></li>
+                    </ul>
+                </li>
+                <li class="out_li"><a href="#" onclick="getLogin()" id="atag">Login</a></li>
+                <li class="out_li"><a href="#" onclick="getSignup()">Signup</a></li>
+                <li class="out_li"><a href="#">Feedback</a></li>
+            </ul>
+        </div>
+
+
+        <!-------------------------Slidebar------------------------------->
+
+
+        <div class="slidebar">
+            <div class="images">
+                <div class="img1">
+                    <img src="https://picsum.photos/1535/500?random=2" class="slide_img" alt="img1" />
+                </div>
+            </div>
+        </div>
+
+
+        <!-----------Content------------->
+        <div class="content_main">
+            <div class="content_tittle">
+                <h2>Desktop</h2>
+            </div>
+            <div class="content_body">
+                <div class="con_1">
+                    <img src="https://picsum.photos/320/240?random=3" id="content_image"><br />
+                    <a href="#" class="download_link">Download</a>
+                </div>
+                <div class="con_2">
+                    <img src="https://picsum.photos/320/240?random=2" id="content_image"><br />
+                    <a href="#" class="download_link">Download</a>
+                </div>
+                <div class="con_3">
+                    <img src="https://picsum.photos/320/240?random=1" id="content_image"><br />
+                    <a href="#" class="download_link">Download</a>
+                </div>
+                <div class="con_3">
+                    <img src="https://picsum.photos/320/240?random=4" id="content_image"><br />
+                    <a href="#" class="download_link">Download</a>
+                </div>
+                <div class="con_3">
+                    <img src="https://picsum.photos/320/240?random=5" id="content_image"><br />
+                    <a href="#" class="download_link">Download</a>
+                </div>
+                <div class="con_3">
+                    <img src="https://picsum.photos/320/240?random=6" id="content_image"><br />
+                    <a href="#" class="download_link">Download</a>
+                </div>
+                <div class="con_3">
+                    <img src="https://picsum.photos/320/240?random=7" id="content_image"><br />
+                    <a href="#" class="download_link">Download</a>
+                </div>
+                <div class="con_3">
+                    <img src="https://picsum.photos/320/240?random=8" id="content_image"><br />
+                    <a href="#" class="download_link">Download</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <div class="footer">
+        <ul class="footer_ul">
+            <li class="footer_li">Home</li>
+            <li class="footer_li">Submit Photos</li>
+            <li class="footer_li">Content Us</li>
+            <li class="footer_li">Help</li>
+            <li class="footer_li">About</li>
+        </ul>
+        <details>
+            <summary>&copy;Copyright@2022-23</summary>
+            <p>
+                Lorem ipsum dolor, sit amet
+                consectetur adipisicing elit.
+                Delectus autem odit modi est
+                laboriosam explicabo dicta tenetur
+                consectetur sint veritatis? Velit
+                ullam nostrum incidunt atque sequi
+                vel consequuntur architecto quae.
+            </p>
+        </details>
+    </div>
+
+    <script src="./JS/function.js"></script>
+</body>
+
+</html>
