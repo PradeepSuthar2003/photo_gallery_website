@@ -13,27 +13,29 @@
 <body>
     <!------------------Login Modal------------------>
     <div class="login_main" id="login_model">
-        <button id="close-btn" onclick="hideModel()">*</button>
-        <h2>Login Now</h2>
         <div class="login_center">
+            <h2 class="login-tittle">Login Now</h2>
+            <button id="close-btn" onclick="hideModel()">*</button>
             <form>
-                Enter Username:<br /><input type="text" name="username"><br />
-                Enter Password:<br /><input type="text" name="password"><br />
-                <input type="submit" name="submit" value="Login">
+                <br />
+                Enter Username:<br /><br /><input type="text" name="username" class="log-sign-txt"><br /><br />
+                Enter Password:<br /><br /><input type="text" name="password" class="log-sign-txt"><br /><br />
+                <input type="submit" name="submit" value="Login" class="log-sign-btn">
             </form>
         </div>
     </div>
 
     <!------------------Signup Modal------------------>
     <div class="signup_main" id="signup_model">
-        <button id="close-btn" onclick="hideModel()">*</button>
-        <h2>Signup Now</h2>
         <div class="signup_center">
+            <h2 class="signup-tittle">Signup Now</h2>
+            <button id="close-btn" onclick="hideModel()">*</button>
             <form>
-                Enter Name:<br /><input type="text" name="username"><br />
-                Enter Email:<br /><input type="text" name="email"><br />
-                Enter Password:<br /><input type="text" name="password"><br />
-                <input type="submit" name="submit" value="Signup">
+                <br /><br />
+                Enter Name:<br /><br /><input type="text" name="username" class="log-sign-txt"><br />
+                Enter Email:<br /><br /><input type="text" name="email" class="log-sign-txt"><br />
+                Enter Password:<br /><br /><input type="text" name="password" class="log-sign-txt"><br /><br />
+                <input type="submit" name="submit" value="Signup" class="log-sign-btn">
             </form>
         </div>
     </div>
@@ -129,30 +131,31 @@
             </div>
         </div>
 
+        <div class="footer">
+            <ul class="footer_ul">
+                <li class="footer_li">Home</li>
+                <li class="footer_li">Submit Photos</li>
+                <li class="footer_li">Content Us</li>
+                <li class="footer_li">Help</li>
+                <li class="footer_li">About</li>
+            </ul>
+            <details>
+                <summary>&copy;Copyright@2022-23</summary>
+                <p>
+                    Lorem ipsum dolor, sit amet
+                    consectetur adipisicing elit.
+                    Delectus autem odit modi est
+                    laboriosam explicabo dicta tenetur
+                    consectetur sint veritatis? Velit
+                    ullam nostrum incidunt atque sequi
+                    vel consequuntur architecto quae.
+                </p>
+            </details>
+        </div>
     </div>
 
 
-    <div class="footer">
-        <ul class="footer_ul">
-            <li class="footer_li">Home</li>
-            <li class="footer_li">Submit Photos</li>
-            <li class="footer_li">Content Us</li>
-            <li class="footer_li">Help</li>
-            <li class="footer_li">About</li>
-        </ul>
-        <details>
-            <summary>&copy;Copyright@2022-23</summary>
-            <p>
-                Lorem ipsum dolor, sit amet
-                consectetur adipisicing elit.
-                Delectus autem odit modi est
-                laboriosam explicabo dicta tenetur
-                consectetur sint veritatis? Velit
-                ullam nostrum incidunt atque sequi
-                vel consequuntur architecto quae.
-            </p>
-        </details>
-    </div>
+
 
     <script src="./JS/function.js"></script>
 </body>
